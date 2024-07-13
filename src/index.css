@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Custom styles to hide the number input spinners */
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.swiper-button-prev {
+    color: #5f4cdd !important;
+}
+
+.swiper-button-next {
+    color: #5f4cdd !important;
+}
+
+.swiper-pagination-bullet {
+    --swiper-theme-color: #5f4cdd !important;
+}
+
+/* .swiper-slide div {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-rotation {
+    transform: rotate(35deg); /* Adjust the degree of rotation here */
+}
+.custom-rotation-star {
+    transform: rotate(20deg); /* Adjust the degree of rotation here */
+}
+
+
+
+

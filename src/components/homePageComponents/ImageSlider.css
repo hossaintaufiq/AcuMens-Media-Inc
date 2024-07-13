@@ -1,0 +1,21 @@
+/* src/components/ImageSlider.css */
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 200%; /* Make the container wide enough to hold all images twice */
+    animation: scroll 12s linear infinite; /* Adjust the duration as needed */
+  }
+  
